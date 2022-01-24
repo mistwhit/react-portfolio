@@ -22,6 +22,7 @@ If you would like to run this application locally, clone this repository and ent
 - JavaScript
 - Node.js
 - React.js
+- Bootstrap
 
 ## License
 This project is licensed under the MIT license.
