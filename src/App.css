@@ -11,9 +11,7 @@
   background: var(--sage);
   color: var(--kombu-green);
   text-align: center;
-}
-
-#header {
+  font-family: "Lucida Console", "Courier New", monospace;
   
 }
 

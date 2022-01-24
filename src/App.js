@@ -6,12 +6,12 @@ function App() {
     <body>
 
     <header id="header">
-        <h1>Misty Whitenton</h1>
+        <h1>M I S T Y W H I T E N T O N</h1>
         {/* Navigation Goes Here: About Me (this page), Portfolio, Contact, Resume */}
     </header>
     <main>
         <section id="aboutMe">
-            <h2>COMING SOON</h2>
+            <h2>PROFILE COMING SOON</h2>
             {/* Avatar Goes Here */}
             {/* About Me Goes Here */}
         </section>

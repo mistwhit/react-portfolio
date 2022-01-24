@@ -5,6 +5,8 @@ This is my portfolio that I am using to practice building a React.js application
 
 [Deployed App](https://mistwhit.github.io/react-portfolio/)
 
+![Screenshot of React Portfolio](./public/screencapture-mistwhit-github-io-react-portfolio-2022-01-23-23_50_33.png)
+
 ## User Story
 ```
 AS AN employer looking for candidates with experience building single-page applications
