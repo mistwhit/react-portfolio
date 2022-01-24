@@ -1,3 +1,22 @@
+/* Color Scheme */
+:root {
+--cultured: #eff1edff;
+--kombu-green: #373d20ff;
+--spanish-bistre: #717744ff;
+--sage: #bcbd8bff;
+--umber: #766153ff;
+}
+
+* {
+  background: var(--sage);
+  color: var(--kombu-green);
+  text-align: center;
+}
+
+#header {
+  
+}
+
 .App {
   text-align: center;
 }
