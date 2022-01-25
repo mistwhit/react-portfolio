@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, Fragment } from "react";
 import About from "./pages/About";
 import Portfolio from "./pages/Portfolio";
 import Resume from "./pages/Resume"
@@ -27,13 +27,13 @@ const PortfolioContainer = () => {
     const handlePageChange = (page) => setCurrentPage(page);
 
     return (
-        <div>
+        <Fragment>
             <Header currentPage={currentPage} handlePageChange={handlePageChange} />
             <div>
                 {renderPage()}
             </div>
             <Footer />
-        </div>
+        </Fragment>
     );
 }
 
