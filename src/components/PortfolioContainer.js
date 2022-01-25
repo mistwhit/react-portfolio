@@ -1,5 +1,5 @@
 import React, { useState, Fragment } from "react";
-import AboutMe from "./pages/AboutMe";
+import AboutMe from "./pages/About";
 import Contact from "./pages/Contact";
 import Portfolio from "./pages/Portfolio";
 import Resume from "./pages/Resume"
