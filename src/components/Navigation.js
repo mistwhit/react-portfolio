@@ -1,12 +1,21 @@
-import React from 'react';
+import React from "react";
 
 const Navigation = ({ currentPage, handlePageChange }) => {
     return (
         <ul className="navbar">
             <li className="nav-item">
                 <a
+                    href="#home"
+                    onClick={() => handlePageChange("Home")}
+                    className={currentPage === "Home" ? "nav-link active" : "nav-link"}
+                >
+                    About
+                </a>
+            </li>
+            <li className="nav-item">
+                <a
                     href="#about"
-                    onClick={() => handlePageChange("AboutMe")}
+                    onClick={() => handlePageChange("About")}
                     className={currentPage === "About" ? "nav-link active" : "nav-link"}
                 >
                     About
