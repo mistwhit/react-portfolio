@@ -9,7 +9,7 @@ const Navigation = ({ currentPage, handlePageChange }) => {
                     onClick={() => handlePageChange("Home")}
                     className={currentPage === "Home" ? "nav-link active" : "nav-link"}
                 >
-                    About
+                    Home
                 </a>
             </li>
             <li className="nav-item">
