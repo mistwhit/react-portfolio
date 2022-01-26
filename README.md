@@ -5,7 +5,7 @@ This is my portfolio that I am using to practice building a React.js application
 
 [Deployed App](https://mistwhit.github.io/react-portfolio/)
 
-![Screenshot of React Portfolio](./public/assets/screencapture-mistwhit-github-io-react-portfolio-2022-01-23-23_50_33.png)
+![Screenshot of React Portfolio](./public/assets/react-portfolio-screenshot.png)
 
 ## User Story
 ```
