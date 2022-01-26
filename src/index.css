@@ -20,28 +20,6 @@ body {
   padding: 25px;
 }
 
-/* html, body, #root { height: 100%; }
-
-.container {
-  max-width: unset;
-}
-
-.nav-item {
-  background-color: var(--light-orange);
-  border-radius: 5px;
-}
-
-a {
-  color: var(--cream)
-}
-
-a:hover {
-  color: var(--cream);
-  background-color: var(--beige);
-  border-radius: 5px;
-}
-*/
-
 .btn {
   background-color: var(--light-orange);
   border: none
@@ -50,7 +28,6 @@ a:hover {
 .btn:hover {
   background-color: var(--beige);
 }
-
 
 .home-text {
   font-weight: 300;
@@ -61,11 +38,6 @@ a:hover {
   padding: 10px;
   margin: 25px;
 }
-
-/* .nav-item {
-  background: var(--dark-green);
-  border: var(--very-dark);
-} */
 
 .nav-item:hover {
   background:var(--light-orange);
@@ -93,4 +65,20 @@ ul {
 ul li {
   margin: 1px;
   padding: 5px;
+}
+
+.headshot1 {
+  max-width: 35%;
+  height: auto;
+  border-radius: 15px;
+}
+
+.headshot2 {
+  max-width: 40%;
+  height: auto;
+  border-radius: 15px;
+}
+
+.resume {
+  color: var(--cream);
 }
