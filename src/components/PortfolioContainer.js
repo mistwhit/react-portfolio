@@ -8,22 +8,22 @@ import Header from "./Header";
 import Footer from "./Footer";
 
 const PortfolioContainer = () => {
-    const [currentPage, setCurrentPage] = useState('Home');
+    const [currentPage, setCurrentPage] = useState("Home");
 
     const renderPage = () => {
-        if (currentPage === 'Home') {
+        if (currentPage === "Home") {
             return <Home />;
         }
-        if (currentPage === 'About') {
+        if (currentPage === "About") {
             return <About />;
         }
-        if (currentPage === 'Portfolio') {
+        if (currentPage === "Portfolio") {
             return <Portfolio />;
         }
-        if (currentPage === 'Resume') {
+        if (currentPage === "Resume") {
             return <Resume />;
         }
-        if (currentPage === 'Contact') {
+        if (currentPage === "Contact") {
             return <Contact />;
         }
     };
