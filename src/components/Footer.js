@@ -4,6 +4,7 @@ const Footer = () => {
     return (
         <footer class="bg-link text-center ">
             {/* <!-- Grid Container --> */}
+            {/* TEST */}
             <div class="container p-4">
                 {/* <!-- Section: Contact Me --> */}
                 <section class="mb-4">
